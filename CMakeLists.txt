@@ -23,7 +23,9 @@ include_directories(${GLIB_INCLUDE_DIRS} ${GST_APP_INCLUDE_DIRS})
 include_directories(include ${catkin_INCLUDE_DIRS})
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
-add_library(${PROJECT_NAME} SHARED src/csi_camera.cpp)
+add_library(${PROJECT_NAME} SHARED 
+	    src/csi_camera.cpp
+	    src/configurationloader.cpp)
 target_link_libraries(${PROJECT_NAME}
                       ${catkin_LIBRARIES}
                       ${GSTREAMER_LIBRARIES}

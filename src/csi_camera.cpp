@@ -268,9 +268,10 @@ std::string CsiCameraPublisher::
 CreatGstreamerPipeline() const
 {
 
-   return "nvarguscamerasrc sensor-id=" + std::to_string(sensor_id_) +
-           " ! video/x-raw(memory:NVMM), width=(int)" + std::to_string(image_width_) +
-           ", height=(int)" + std::to_string(image_height_) +
-		   ", format=(string)NV12, framerate=(fraction)" + std::to_string(frame_rate_) +
+   return "nvarguscamerasrc sensor-id=" + std::to_string(sensor_id_) + 
+           " ! video/x-raw(memory:NVMM), width=(int)" + std::to_string(image_width_) + 
+           ", height=(int)" + std::to_string(image_height_) + 
+		   ", format=(string)NV12, framerate=(fraction)" + std::to_string(frame_rate_) + 
 		   "/1 ! nvvidconv flip-method=0 ! video/x-raw, format=(string)BGRx ! videoconvert";
 }
+

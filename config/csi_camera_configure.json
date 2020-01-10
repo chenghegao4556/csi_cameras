@@ -1,0 +1,97 @@
+{
+    "CsiCameras": {
+        "Cameras": [
+            { "ID": "0", "Height": "1080", "Width": "1920", "Intrinsic": {
+                    "type_id": "opencv-matrix",
+                    "rows": 3,
+                    "cols": 3,
+                    "dt": "d",
+                    "data": [ 960.0, 0.0, 960.0, 0.0, 960.0, 540.0, 0.0,
+                        0.0, 1.0 ]
+                }, "Distortion": {
+                    "type_id": "opencv-matrix",
+                    "rows": 1,
+                    "cols": 4,
+                    "dt": "d",
+                    "data": [ 0.0, 0.0, 0.0, 0.0 ]
+                } },
+            { "ID": "1", "Height": "1080", "Width": "1920", "Intrinsic": {
+                    "type_id": "opencv-matrix",
+                    "rows": 3,
+                    "cols": 3,
+                    "dt": "d",
+                    "data": [ 960.0, 0.0, 960.0, 0.0, 960.0, 540.0, 0.0,
+                        0.0, 1.0 ]
+                }, "Distortion": {
+                    "type_id": "opencv-matrix",
+                    "rows": 1,
+                    "cols": 4,
+                    "dt": "d",
+                    "data": [ 0.0, 0.0, 0.0, 0.0 ]
+                } },
+            { "ID": "2", "Height": "1080", "Width": "1920", "Intrinsic": {
+                    "type_id": "opencv-matrix",
+                    "rows": 3,
+                    "cols": 3,
+                    "dt": "d",
+                    "data": [ 960.0, 0.0, 960.0, 0.0, 960.0, 540.0, 0.0,
+                        0.0, 1.0 ]
+                }, "Distortion": {
+                    "type_id": "opencv-matrix",
+                    "rows": 1,
+                    "cols": 4,
+                    "dt": "d",
+                    "data": [ 0.0, 0.0, 0.0, 0.0 ]
+                } },
+            { "ID": "3", "Height": "1080", "Width": "1920", "Intrinsic": {
+                    "type_id": "opencv-matrix",
+                    "rows": 3,
+                    "cols": 3,
+                    "dt": "d",
+                    "data": [ 960.0, 0.0, 960.0, 0.0, 960.0, 540.0, 0.0,
+                        0.0, 1.0 ]
+                }, "Distortion": {
+                    "type_id": "opencv-matrix",
+                    "rows": 1,
+                    "cols": 4,
+                    "dt": "d",
+                    "data": [ 0.0, 0.0, 0.0, 0.0 ]
+                } },
+            { "ID": "4", "Height": "1080", "Width": "1920", "Intrinsic": {
+                    "type_id": "opencv-matrix",
+                    "rows": 3,
+                    "cols": 3,
+                    "dt": "d",
+                    "data": [ 960.0, 0.0, 960.0, 0.0, 960.0, 540.0, 0.0,
+                        0.0, 1.0 ]
+                }, "Distortion": {
+                    "type_id": "opencv-matrix",
+                    "rows": 1,
+                    "cols": 4,
+                    "dt": "d",
+                    "data": [ 0.0, 0.0, 0.0, 0.0 ]
+                } },
+            { "ID": "5", "Height": "1080", "Width": "1920", "Intrinsic": {
+                    "type_id": "opencv-matrix",
+                    "rows": 3,
+                    "cols": 3,
+                    "dt": "d",
+                    "data": [ 960.0, 0.0, 960.0, 0.0, 960.0, 540.0, 0.0,
+                        0.0, 1.0 ]
+                }, "Distortion": {
+                    "type_id": "opencv-matrix",
+                    "rows": 1,
+                    "cols": 4,
+                    "dt": "d",
+                    "data": [ 0.0, 0.0, 0.0, 0.0 ]
+                } }
+        ],
+        "UsedCameras": [
+            { "ID": "0" },
+            { "ID": "1" },
+            { "ID": "5" },
+            { "ID": "4" },
+            { "ID": "2" }
+        ]
+    }
+}
